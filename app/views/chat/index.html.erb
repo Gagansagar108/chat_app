@@ -1,0 +1,6 @@
+<div id="messages"></div>
+
+<%= form_with url: "/messages", local: true do |f| %>
+  <%= f.text_field :message %>
+  <%= f.submit "Send" %>
+<% end %>
